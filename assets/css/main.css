@@ -274,12 +274,30 @@ body {
     background-color: black;
     border: 2px solid black;
 }
-
-.swiggy {
-    height: 50px;
-    width: 50px;
+.swiggy1{
+    height: 40px;
+    object-fit: contain;
+    margin-top: 2px;
+    margin-bottom: 14px;
 }
-
+.swiggy2{
+    height: 46px;
+    object-fit: contain;
+    border-radius: 50%;
+    /* margin-top: -2px; */
+    margin-bottom: 14px;
+}
+.swiggy {
+    height: 45px;
+    margin-bottom: 14px;
+    object-fit: contain;
+}
+.swiggy1:hover{
+    height: 42px;
+}
+.swiggy:hover, .swiggy2:hover{
+    height: 47px;
+} 
 .partner {
     color: #808080;
 }
